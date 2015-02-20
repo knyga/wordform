@@ -1,0 +1,33 @@
+{
+    "name": "knyga/wordform",
+    "type": "application",
+    "description": "Changes word form",
+    "keywords": ["form", "word", "knyga", "multiple"],
+    "homepage": "https://github.com/knyga/wordform",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Oleksandr Knyga",
+            "email": "oleksandrknyga@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 5.4",
+        "lib-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": { "WordForm\\": "." }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.2-dev"
+        }
+    }
+}
